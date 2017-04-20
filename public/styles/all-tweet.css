@@ -1,0 +1,84 @@
+/*
+ * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * https://css-tricks.com/international-box-sizing-awareness-day/
+ * Do not modify these two selectors, please
+ */
+
+.tweet {
+    position: relative;
+    top: 10%;
+    height: 200px;
+    width: 400px;
+    border: solid 1px #aaa;
+    border-radius: 10px;
+    background-color: white;
+    opacity: .5;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tweet:hover {
+    opacity: 1;
+}
+
+.tweet header {
+    position: relative;
+    background-color: rgb(220, 220, 220);
+    width: 399px;
+    height: 60px;
+    color: rgb(80, 80, 80);
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 70px;
+    font-size: 1.75em;
+    font-weight: bold;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.tweet img {
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.tweet .handle {
+    position: absolute;
+    text-align: right;
+    top: 3px;
+    font-size: 1em;
+    color: rgb(80, 80, 80);
+}
+
+.tweet p {
+    position: relative;
+    height: 30px;
+    width: 399px;
+    font-weight: lighter;
+    text-align: left;
+    padding-left: 3%;
+    padding-right: 3%;
+    word-wrap: break-word;
+}
+
+.tweet footer {
+    position: relative;
+    top: 35px;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 400px;
+    font-size: .75em;
+    font-weight: lighter;
+    border-top: solid 1px #aaa;
+}
+
+
+.tweet .fa {
+    float: right;
+    margin-right: 2%;
+    color: rgb(83, 187, 169);
+}

@@ -1,0 +1,44 @@
+.new-tweet {
+    background-color: #eee;
+    position: relative;
+    top: 10%;
+    width: 400px;
+    height: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    border: 1px solid #d7dde5;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5px;
+}
+
+.new-tweet h2 {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    position: relative;
+    font-size: 1.75em;
+    border-bottom: solid 1px #000000;
+}
+
+.new-tweet textarea {
+    position: relative;
+    height: 70px;
+    width: 100%
+}
+
+.new-tweet label {
+    margin-left: 10px;
+    color: red;
+}
+
+.new-tweet .counter {
+    float: right;
+    padding-right: 1%;
+    padding-top: 1%;
+}
+
+.negative {
+    color: red;
+}
